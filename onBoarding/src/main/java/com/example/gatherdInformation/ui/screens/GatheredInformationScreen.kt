@@ -71,7 +71,7 @@ fun GatheredInformationScreenContent(
             ) {
                 Spacer(Modifier.height(15.dp))
                 Text(
-                    text= stringResource(R.string.user).plus(" ").plus(index)
+                    text= stringResource(R.string.user).plus(" ").plus(index.plus(1))
                 )
                 Row(
                     modifier = Modifier.fillMaxWidth(),
